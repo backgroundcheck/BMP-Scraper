@@ -28,6 +28,8 @@ from BeautifulSoup import BeautifulSoup
 from selenium import webdriver
 import selenium
 import mechanize
+import scraperwiki
+import lxml.html
 import re
 import csv
 import os
