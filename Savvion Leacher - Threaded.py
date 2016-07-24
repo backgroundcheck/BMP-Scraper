@@ -9,6 +9,9 @@ import time
 import csv
 import os
 
+import scraperwiki
+import lxml.html
+
 # Main variables
 LoginPage = 'https://www.dataflowbpm.com/sbm/bpmportal/login.jsp'
 CaseSrcPg = 'https://www.dataflowbpm.com/sbm/bpmportal/ExternalUtils/LiveSearch/Case_Search.jsp'
